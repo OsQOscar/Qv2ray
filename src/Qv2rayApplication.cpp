@@ -203,7 +203,7 @@ namespace Qv2ray
                 }
             }
         }
-#ifdef Q_OS_MACOS
+#if 0
         connect(this, &QApplication::applicationStateChanged, [this](Qt::ApplicationState state) {
             switch (state)
             {
